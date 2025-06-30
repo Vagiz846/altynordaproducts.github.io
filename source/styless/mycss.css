@@ -1,0 +1,58 @@
+
+@import url(https://fonts.googleapis.com/css?family=TimesNewRoman&display=swap
+);
+
+
+
+
+body {
+    font-family: 'Times New Roman', serif;
+    background: linear-gradient(0deg, #00ff2a 0%, #ffffff 100%);
+}
+
+
+.nav-link{
+    color:rgb(255, 196, 220);
+}
+
+.navbar-nav .nav-link.active {
+   color:rgb(35, 20, 193);
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-toggler{
+    background-color:brown ;
+}
+
+.sidebar{
+    color: rgb(178, 23, 85);
+}
+
+.card a {
+   text-decoration: none;
+}
+
+.slide-text {
+    color:blue;
+    margin: auto auto;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 755px){
+
+    .carusel-indicators {
+        display: none;
+    }
+
+}
+
+
